@@ -6,6 +6,7 @@ gem "lita-whois"
 
 group :development do
   gem "dotenv"
+  gem "pry"
 end
 
 # Uncomment to use the IRC adapter
