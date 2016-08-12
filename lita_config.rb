@@ -1,3 +1,7 @@
+require 'dotenv'
+Dotenv.load('.env.local')
+Dotenv.load('.env.development')
+
 Lita.configure do |config|
   # The name your robot will use.
   config.robot.name = "Lita"
