@@ -26,6 +26,8 @@ Lita.configure do |config|
   # config.adapters.slack.unfurl_links = false
   # config.adapters.slack.unfurl_media = false
 
+  config.http.port = ENV.fetch('PORT', 8080)
+
   ## Example: Set options for the chosen adapter.
   # config.adapter.username = "myname"
   # config.adapter.password = "secret"
