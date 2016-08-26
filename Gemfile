@@ -3,6 +3,7 @@ source "https://rubygems.org"
 gem "lita"
 gem "lita-slack"
 gem "lita-whois"
+gem "lita-poll"
 
 group :development do
   gem "dotenv"
