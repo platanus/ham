@@ -4,6 +4,7 @@ gem "lita"
 gem "lita-slack"
 gem "lita-whois"
 gem "lita-poll"
+gem 'lita-keepalive'
 
 group :development do
   gem "dotenv"
