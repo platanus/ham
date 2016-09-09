@@ -34,14 +34,15 @@ Lita.configure do |config|
 
   ## Example: Set options for the Redis connection.
   config.redis[:url] = ENV['BOXEN_REDIS_URL']
+  config.handlers.keepalive.url = "http://localhost:#{config.http.port}"
 
   if ENV['RACK_ENV'] == 'production'
     config.redis[:url] = ENV['REDIS_URL']
+
+    config.handlers.keepalive.url = ENV.fetch('KEEPALIVE_URL')
   end
 
   ## Example: Set configuration for any loaded handlers. See the handler's
   ## documentation for options.
   # config.handlers.some_handler.some_config_key = "value"
-
-  config.handlers.keepalive.url = "http://#{ENV.fetch('HTTP_HOST')}:#{config.http.port}"
 end
