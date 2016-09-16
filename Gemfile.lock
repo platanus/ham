@@ -9,7 +9,7 @@ GIT
 
 GIT
   remote: git://github.com/platanus/lita-pull-requests.git
-  revision: 77a5463e0517387e98d1e5616fbab5c78ea7ff91
+  revision: a2c5205f3719218c9597a6ce45988e468865ea41
   specs:
     lita-pull-requests (0.1.0)
       lita (>= 4.7)
