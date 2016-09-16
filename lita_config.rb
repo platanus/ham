@@ -46,6 +46,9 @@ Lita.configure do |config|
         .refresh_token = ENV.fetch('GOOGLE_CALENDAR_REFRESH_TOKEN')
   config.handlers.google_birthdates.room = ENV.fetch('SLACK_ROOM')
 
+  config.handlers.pull_requests.access_token = ENV.fetch('GITHUB_TOKEN')
+  config.handlers.pull_requests.room = ENV.fetch('PULL_REQUESTS_ROOM')
+
   if ENV['RACK_ENV'] == 'production'
     config.redis[:url] = ENV['REDIS_URL']
 
