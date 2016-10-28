@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/platanus/lita-dependencies.git
-  revision: 83fdaef3883de1ff6a0da765212086a40ca5c1cb
+  revision: aa408ef5f822412ff90b5621a22f334a5520d3eb
   specs:
     lita-dependencies (0.1.0)
       lita (>= 4.7)
