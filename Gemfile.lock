@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/platanus/lita-dependencies.git
-  revision: 378837b7658b8d723063464d1398287581edf40c
+  revision: 83fdaef3883de1ff6a0da765212086a40ca5c1cb
   specs:
     lita-dependencies (0.1.0)
       lita (>= 4.7)
@@ -48,10 +48,10 @@ GEM
     faye-websocket (0.10.4)
       eventmachine (>= 0.12.0)
       websocket-driver (>= 0.5.1)
-    google_calendar (0.5.2)
+    google_calendar (0.6.1)
       TimezoneParser (~> 0.2.0)
-      json (~> 1.8)
-      signet (~> 0.6)
+      json (>= 1.8.3, < 2.1)
+      signet (~> 0.7)
     http_router (0.11.2)
       rack (>= 1.0.0)
       url_mount (~> 0.2.1)
@@ -81,11 +81,11 @@ GEM
       lita (~> 4.0)
     lita-poll (1.0.2)
       lita (>= 4.2.1)
-    lita-slack (1.7.2)
+    lita-slack (1.8.0)
       eventmachine
       faraday
       faye-websocket (>= 0.8.0)
-      lita (>= 4.6.0)
+      lita (>= 4.7.1)
       multi_json
     lita-whois (1.1.0)
       lita (~> 4.2)
@@ -95,7 +95,7 @@ GEM
     multi_json (1.12.1)
     multipart-post (2.0.0)
     netaddr (1.5.1)
-    octokit (4.3.0)
+    octokit (4.4.1)
       sawyer (~> 0.7.0, >= 0.5.3)
     power-types (0.1.2)
     pry (0.10.4)
