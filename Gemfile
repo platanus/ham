@@ -7,6 +7,7 @@ gem "lita-poll"
 gem 'lita-keepalive'
 gem 'lita-google-birthdates', github: "platanus/lita-google-birthdates"
 gem 'lita-pull-requests', github: "platanus/lita-pull-requests" 
+gem 'lita-dependencies', github: "platanus/lita-dependencies"
 
 group :development do
   gem "dotenv"
