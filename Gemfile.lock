@@ -19,6 +19,13 @@ GIT
       rufus-scheduler (= 2.0.24)
 
 GIT
+  remote: git://github.com/platanus/lita-lunch-reminder.git
+  revision: c1028ee1b055bc999ce8ff4d2dda2b1214faccfd
+  specs:
+    lita-lunch-reminder (0.1.0)
+      lita (>= 4.7)
+
+GIT
   remote: git://github.com/platanus/lita-pull-requests.git
   revision: a2c5205f3719218c9597a6ce45988e468865ea41
   specs:
@@ -140,6 +147,7 @@ DEPENDENCIES
   lita-dependencies!
   lita-google-birthdates!
   lita-keepalive
+  lita-lunch-reminder!
   lita-poll
   lita-pull-requests!
   lita-slack
@@ -147,4 +155,4 @@ DEPENDENCIES
   pry
 
 BUNDLED WITH
-   1.13.1
+   1.13.6
