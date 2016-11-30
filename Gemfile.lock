@@ -20,7 +20,7 @@ GIT
 
 GIT
   remote: git://github.com/platanus/lita-lunch-reminder.git
-  revision: 74319119a88a5830cc16ce051d42b2ae1c188582
+  revision: 3f030cdc39e8fbc13af7e081d851733881e6cadc
   specs:
     lita-lunch-reminder (0.2.0)
       lita (>= 4.7)
@@ -109,7 +109,7 @@ GEM
       coderay (~> 1.1.0)
       method_source (~> 0.8.1)
       slop (~> 3.4)
-    puma (3.6.1)
+    puma (3.6.2)
     rack (1.6.5)
     rb-readline (0.5.3)
     redis (3.3.2)
@@ -126,7 +126,7 @@ GEM
       jwt (~> 1.5)
       multi_json (~> 1.10)
     slop (3.6.0)
-    thor (0.19.1)
+    thor (0.19.4)
     thread_safe (0.3.5)
     tzinfo (1.2.2)
       thread_safe (~> 0.1)
