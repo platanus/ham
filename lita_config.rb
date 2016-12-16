@@ -49,6 +49,9 @@ Lita.configure do |config|
   config.handlers.pull_requests.access_token = ENV.fetch('GITHUB_TOKEN')
   config.handlers.pull_requests.room = ENV.fetch('PULL_REQUESTS_ROOM')
 
+  config.handlers.vote_handler.trello_config.developer_public_key = ENV.fetch('TRELLO_API_KEY')
+  config.handlers.vote_handler.trello_config.member_token = ENV.fetch('TRELLO_MEMBER_TOKEN')
+
   if ENV['RACK_ENV'] == 'production'
     config.redis[:url] = ENV['REDIS_URL']
 
