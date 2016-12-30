@@ -20,7 +20,7 @@ GIT
 
 GIT
   remote: git://github.com/platanus/lita-lunch-reminder.git
-  revision: efc839548399124e5525ca7b05f4bae3d112fb41
+  revision: b806ab303b8192b73c6369cf2ef04b9d67172c83
   specs:
     lita-lunch-reminder (0.2.0)
       google_drive
@@ -83,7 +83,7 @@ GEM
       TimezoneParser (~> 0.2.0)
       json (>= 1.8.3, < 2.1)
       signet (~> 0.7)
-    google_drive (2.1.1)
+    google_drive (2.1.2)
       google-api-client (>= 0.9.0, < 1.0.0)
       googleauth (>= 0.5.0, < 1.0.0)
       nokogiri (>= 1.5.3, < 2.0.0)
@@ -98,7 +98,7 @@ GEM
     http_router (0.11.2)
       rack (>= 1.0.0)
       url_mount (~> 0.2.1)
-    httpclient (2.8.2.4)
+    httpclient (2.8.3)
     hurley (0.2)
     i18n (0.7.0)
     ice_nine (0.11.2)
@@ -149,7 +149,7 @@ GEM
     multi_json (1.12.1)
     multipart-post (2.0.0)
     netaddr (1.5.1)
-    nokogiri (1.6.8.1)
+    nokogiri (1.7.0)
       mini_portile2 (~> 2.1.0)
     oauth (0.4.7)
     octokit (4.4.1)
