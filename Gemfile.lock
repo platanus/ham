@@ -45,6 +45,14 @@ GIT
       ruby-trello
       rufus-scheduler
 
+GIT
+  remote: git://github.com/platanus/lita-watering-reminder.git
+  revision: 7fbcbf2e5a2298e8b0039ec9b28cd5d78a8c1efa
+  specs:
+    lita-watering-reminder (0.2.0)
+      google_drive
+      lita (>= 4.7)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -70,7 +78,7 @@ GEM
     faye-websocket (0.10.4)
       eventmachine (>= 0.12.0)
       websocket-driver (>= 0.5.1)
-    google-api-client (0.9.20)
+    google-api-client (0.9.22)
       addressable (~> 2.3)
       googleauth (~> 0.5)
       httpclient (~> 2.7)
@@ -149,7 +157,7 @@ GEM
     multi_json (1.12.1)
     multipart-post (2.0.0)
     netaddr (1.5.1)
-    nokogiri (1.7.0)
+    nokogiri (1.7.0.1)
       mini_portile2 (~> 2.1.0)
     oauth (0.4.7)
     octokit (4.4.1)
@@ -215,6 +223,7 @@ DEPENDENCIES
   lita-pull-requests!
   lita-slack
   lita-trello-democracy!
+  lita-watering-reminder!
   lita-whois
   pry
 

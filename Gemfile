@@ -9,6 +9,7 @@ gem 'lita-google-birthdates', github: "platanus/lita-google-birthdates"
 gem 'lita-pull-requests', github: "platanus/lita-pull-requests"
 gem 'lita-dependencies', github: "platanus/lita-dependencies"
 gem 'lita-lunch-reminder', github: "platanus/lita-lunch-reminder"
+gem 'lita-watering-reminder', github: "platanus/lita-watering-reminder"
 gem 'lita-trello-democracy', github: "platanus/lita-trello-democracy"
 
 
