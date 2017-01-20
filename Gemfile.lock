@@ -37,7 +37,7 @@ GIT
 
 GIT
   remote: git://github.com/platanus/lita-trello-democracy.git
-  revision: 1e323c375a7b372fb160f73af7ca00b5317b99dd
+  revision: 5d1f1111f37ee0c384ee50a9f1c92483494470a5
   specs:
     lita-trello-democracy (0.1.0)
       lita (>= 4.7)
