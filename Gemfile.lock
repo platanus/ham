@@ -47,7 +47,7 @@ GIT
 
 GIT
   remote: git://github.com/platanus/lita-watering-reminder.git
-  revision: 7fbcbf2e5a2298e8b0039ec9b28cd5d78a8c1efa
+  revision: 5f8914a04e74c457f185dd7b1bd509734d95d7dc
   specs:
     lita-watering-reminder (0.2.0)
       google_drive
@@ -78,7 +78,7 @@ GEM
     faye-websocket (0.10.4)
       eventmachine (>= 0.12.0)
       websocket-driver (>= 0.5.1)
-    google-api-client (0.9.22)
+    google-api-client (0.9.24)
       addressable (~> 2.3)
       googleauth (~> 0.5)
       httpclient (~> 2.7)
@@ -171,7 +171,7 @@ GEM
     puma (3.6.2)
     rack (1.6.5)
     rb-readline (0.5.3)
-    redis (3.3.2)
+    redis (3.3.3)
     redis-namespace (1.5.2)
       redis (~> 3.0, >= 3.0.4)
     representable (2.3.0)
