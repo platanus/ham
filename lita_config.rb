@@ -19,7 +19,7 @@ Lita.configure do |config|
 
   # The adapter you want to connect with. Make sure you've added the
   # appropriate gem to the Gemfile.
-  config.robot.adapter = :slack
+  config.robot.adapter = :shell
   config.adapters.slack.token = ENV['SLACK_TOKEN']
   # config.adapters.slack.link_names = true
   # config.adapters.slack.parse = "full"
@@ -33,21 +33,9 @@ Lita.configure do |config|
   # config.adapter.password = "secret"
 
   ## Example: Set options for the Redis connection.
-  config.redis[:url] = ENV['BOXEN_REDIS_URL']
+  #config.redis[:url] = ENV['BOXEN_REDIS_URL']
   config.handlers.keepalive.url = "http://localhost:#{config.http.port}"
 
-  config.handlers.google_birthdates.calendar_credentials
-        .client_id = ENV.fetch('GOOGLE_CLIENT_ID')
-  config.handlers.google_birthdates.calendar_credentials
-        .client_secret = ENV.fetch('GOOGLE_CLIENT_SECRET')
-  config.handlers.google_birthdates.calendar_credentials
-        .calendar_id = ENV.fetch('GOOGLE_CALENDAR_ID')
-  config.handlers.google_birthdates.calendar_credentials
-        .refresh_token = ENV.fetch('GOOGLE_CALENDAR_REFRESH_TOKEN')
-  config.handlers.google_birthdates.room = ENV.fetch('SLACK_ROOM')
-
-  config.handlers.pull_requests.access_token = ENV.fetch('GITHUB_TOKEN')
-  config.handlers.pull_requests.room = ENV.fetch('PULL_REQUESTS_ROOM')
 
   config.handlers.vote_handler.trello_config.developer_public_key = ENV.fetch('TRELLO_API_KEY')
   config.handlers.vote_handler.trello_config.member_token = ENV.fetch('TRELLO_MEMBER_TOKEN')
@@ -56,9 +44,28 @@ Lita.configure do |config|
     config.redis[:url] = ENV['REDIS_URL']
 
     config.handlers.keepalive.url = ENV.fetch('KEEPALIVE_URL')
-  end
+#
+#  config.handlers.google_birthdates.calendar_credentials
+    #    .client_id = ENV.fetch('GOOGLE_CLIENT_ID')
+ # config.handlers.google_birthdates.calendar_credentials
+   #     .client_secret = ENV.fetch('GOOGLE_CLIENT_SECRET')
+  #config.handlers.google_birthdates.calendar_credentials
+    #    .calendar_id = ENV.fetch('GOOGLE_CALENDAR_ID')
+  #config.handlers.google_birthdates.calendar_credentials
+   #     .refresh_token = ENV.fetch('GOOGLE_CALENDAR_REFRESH_TOKEN')
+  #config.handlers.google_birthdates.room = ENV.fetch('SLACK_ROOM')
+
+  #config.handlers.pull_requests.access_token = ENV.fetch('GITHUB_TOKEN')
+  #config.handlers.pull_requests.room = ENV.fetch('PULL_REQUESTS_ROOM')
+
+#  if ENV['RACK_ENV'] == 'production'
+ #   config.redis[:url] = ENV['REDIS_URL']
+
+  #  config.handlers.keepalive.url = ENV.fetch('KEEPALIVE_URL')
+ # end
 
   ## Example: Set configuration for any loaded handlers. See the handler's
   ## documentation for options.
   # config.handlers.some_handler.some_config_key = "value"
+  end
 end

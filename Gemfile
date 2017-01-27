@@ -5,11 +5,11 @@ gem "lita-slack"
 gem "lita-whois"
 gem "lita-poll"
 gem 'lita-keepalive'
-gem 'lita-google-birthdates', github: "platanus/lita-google-birthdates"
-gem 'lita-pull-requests', github: "platanus/lita-pull-requests"
-gem 'lita-dependencies', github: "platanus/lita-dependencies"
-gem 'lita-lunch-reminder', github: "platanus/lita-lunch-reminder"
-gem 'lita-trello-democracy', github: "platanus/lita-trello-democracy"
+#gem 'lita-google-birthdates', github: "platanus/lita-google-birthdates"
+#gem 'lita-pull-requests', github: "platanus/lita-pull-requests"
+#gem 'lita-dependencies', github: "platanus/lita-dependencies"
+gem 'lita-dependencies', path: "/Users/felbalart/src/lita-dependencies"
+gem 'lita-trello-democracy', path: "/Users/felbalart/src/lita-trello-democracy"
 
 
 group :development do
