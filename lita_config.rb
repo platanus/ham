@@ -19,7 +19,7 @@ Lita.configure do |config|
 
   # The adapter you want to connect with. Make sure you've added the
   # appropriate gem to the Gemfile.
-  config.robot.adapter = :shell
+  config.robot.adapter = :slack
   config.adapters.slack.token = ENV['SLACK_TOKEN']
   # config.adapters.slack.link_names = true
   # config.adapters.slack.parse = "full"
@@ -37,8 +37,8 @@ Lita.configure do |config|
   config.handlers.keepalive.url = "http://localhost:#{config.http.port}"
 
 
-  config.handlers.vote_handler.trello_config.developer_public_key = ENV.fetch('TRELLO_API_KEY')
-  config.handlers.vote_handler.trello_config.member_token = ENV.fetch('TRELLO_MEMBER_TOKEN')
+  #config.handlers.vote_handler.trello_config.developer_public_key = ENV.fetch('TRELLO_API_KEY')
+  #config.handlers.vote_handler.trello_config.member_token = ENV.fetch('TRELLO_MEMBER_TOKEN')
 
   if ENV['RACK_ENV'] == 'production'
     config.redis[:url] = ENV['REDIS_URL']
