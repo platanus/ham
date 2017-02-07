@@ -1,8 +1,9 @@
 GIT
   remote: git://github.com/platanus/lita-dependencies.git
-  revision: bd5d75101363c86abc5ad3a96c8375961c69066e
+  revision: 879e5779049dd31f9fe3f1f2e60bbce89b76f275
   specs:
     lita-dependencies (0.1.0)
+      gems
       lita (>= 4.7)
       lita-github-web-hooks-core
       octokit (~> 4.0)
@@ -78,6 +79,8 @@ GEM
     faye-websocket (0.10.4)
       eventmachine (>= 0.12.0)
       websocket-driver (>= 0.5.1)
+    gems (1.0.0)
+      json
     google-api-client (0.9.24)
       addressable (~> 2.3)
       googleauth (~> 0.5)
