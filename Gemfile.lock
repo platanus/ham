@@ -38,7 +38,7 @@ GIT
 
 GIT
   remote: git://github.com/platanus/lita-trainer-bot.git
-  revision: 3ffd52630a619dcdf1a0f11fe855f2b5d1e1ab1c
+  revision: 6702d01bccc35d9c8475a4e21f248413e5e0f13f
   specs:
     lita-trainer-bot (0.1.0)
       google_drive
