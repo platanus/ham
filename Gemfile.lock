@@ -38,7 +38,7 @@ GIT
 
 GIT
   remote: git://github.com/platanus/lita-trainer-bot.git
-  revision: de159b10bdf37f8e3f9ed886a00f14010a0fb30a
+  revision: 3ffd52630a619dcdf1a0f11fe855f2b5d1e1ab1c
   specs:
     lita-trainer-bot (0.1.0)
       google_drive
@@ -193,7 +193,7 @@ GEM
       uber (< 0.2.0)
     rest-client (1.6.7)
       mime-types (>= 1.16)
-    retriable (3.0.0)
+    retriable (3.0.1)
     ruby-trello (1.1.1)
       activemodel (>= 3.2.0)
       addressable (~> 2.3)
