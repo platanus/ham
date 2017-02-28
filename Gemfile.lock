@@ -38,7 +38,7 @@ GIT
 
 GIT
   remote: git://github.com/platanus/lita-trainer-bot.git
-  revision: 6702d01bccc35d9c8475a4e21f248413e5e0f13f
+  revision: cd5e1890c3d2d1bc2bf1fb04c0eee754c8d0451b
   specs:
     lita-trainer-bot (0.1.0)
       google_drive
@@ -121,7 +121,7 @@ GEM
       url_mount (~> 0.2.1)
     httpclient (2.8.3)
     hurley (0.2)
-    i18n (0.8.0)
+    i18n (0.8.1)
     ice_nine (0.11.2)
     insensitive_hash (0.3.3)
     json (1.8.3)
@@ -181,7 +181,7 @@ GEM
       coderay (~> 1.1.0)
       method_source (~> 0.8.1)
       slop (~> 3.4)
-    puma (3.7.0)
+    puma (3.7.1)
     rack (1.6.5)
     rb-readline (0.5.4)
     redis (3.3.3)
