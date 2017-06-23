@@ -62,6 +62,17 @@ GIT
       google_drive
       lita (>= 4.7)
 
+GIT
+  remote: git://github.com/platanus/lita_time_tracker.git
+  revision: 9510774736ecef15a6f6e65aefe66ca2064d1e85
+  specs:
+    lita_time_tracker (0.1.0)
+      awesome_print
+      httparty
+      lita (>= 4.7)
+      require_all
+      togglv8
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -78,6 +89,7 @@ GEM
       thread_safe (~> 0.3, >= 0.3.4)
       tzinfo (~> 1.1)
     addressable (2.4.0)
+    awesome_print (1.8.0)
     builder (3.2.2)
     coderay (1.1.1)
     declarative (0.0.9)
@@ -119,6 +131,8 @@ GEM
     http_router (0.11.2)
       rack (>= 1.0.0)
       url_mount (~> 0.2.1)
+    httparty (0.15.5)
+      multi_xml (>= 0.5.2)
     httpclient (2.8.3)
     hurley (0.2)
     i18n (0.8.1)
@@ -157,6 +171,7 @@ GEM
       lita (~> 4.2)
       whois
     little-plugger (1.1.4)
+    logger (1.2.8)
     logging (2.1.0)
       little-plugger (~> 1.1)
       multi_json (~> 1.10)
@@ -168,6 +183,7 @@ GEM
     mini_portile2 (2.1.0)
     minitest (5.9.1)
     multi_json (1.12.1)
+    multi_xml (0.6.0)
     multipart-post (2.0.0)
     netaddr (1.5.1)
     nokogiri (1.7.0.1)
@@ -175,6 +191,7 @@ GEM
     oauth (0.4.7)
     octokit (4.4.1)
       sawyer (~> 0.7.0, >= 0.5.3)
+    oj (3.2.0)
     os (0.9.6)
     power-types (0.1.2)
     pry (0.10.4)
@@ -191,6 +208,7 @@ GEM
       declarative (< 0.1.0)
       declarative-option (< 0.2.0)
       uber (< 0.2.0)
+    require_all (1.4.0)
     rest-client (1.6.7)
       mime-types (>= 1.16)
     retriable (3.0.1)
@@ -213,6 +231,10 @@ GEM
     slop (3.6.0)
     thor (0.19.4)
     thread_safe (0.3.5)
+    togglv8 (1.2.1)
+      faraday
+      logger
+      oj
     tzinfo (1.2.2)
       thread_safe (~> 0.1)
     uber (0.1.0)
@@ -241,7 +263,8 @@ DEPENDENCIES
   lita-trello-democracy!
   lita-watering-reminder!
   lita-whois
+  lita_time_tracker!
   pry
 
 BUNDLED WITH
-   1.13.6
+   1.14.6
