@@ -64,7 +64,7 @@ GIT
 
 GIT
   remote: git://github.com/platanus/lita_time_tracker.git
-  revision: 9510774736ecef15a6f6e65aefe66ca2064d1e85
+  revision: 9da53c89d8462470817b7a335b629f6f8e081c77
   specs:
     lita_time_tracker (0.1.0)
       awesome_print
@@ -135,7 +135,7 @@ GEM
       multi_xml (>= 0.5.2)
     httpclient (2.8.3)
     hurley (0.2)
-    i18n (0.8.1)
+    i18n (0.8.4)
     ice_nine (0.11.2)
     insensitive_hash (0.3.3)
     json (1.8.3)
@@ -198,8 +198,8 @@ GEM
       coderay (~> 1.1.0)
       method_source (~> 0.8.1)
       slop (~> 3.4)
-    puma (3.7.1)
-    rack (1.6.5)
+    puma (3.9.1)
+    rack (1.6.8)
     rb-readline (0.5.4)
     redis (3.3.3)
     redis-namespace (1.5.3)
