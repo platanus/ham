@@ -6,6 +6,9 @@ Lita.configure do |config|
 
   # The locale code for the language to use.
   # config.robot.locale = :en
+  I18n.default_locale = :en
+  I18n.fallbacks.map(en: :"es-CL")
+  I18n.fallbacks.map("en-US": :"es-CL")
 
   # The severity of messages to log. Options are:
   # :debug, :info, :warn, :error, :fatal
