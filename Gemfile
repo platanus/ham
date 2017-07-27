@@ -13,6 +13,7 @@ gem 'lita-trello-democracy', github: "platanus/lita-trello-democracy"
 gem 'lita-watering-reminder', github: "platanus/lita-watering-reminder"
 gem 'lita_time_tracker', github: "platanus/lita_time_tracker"
 gem "lita-whois"
+gem "lita-crypto", github: "platanus/lita-crypto"
 
 group :development do
   gem "dotenv"

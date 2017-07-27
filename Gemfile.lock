@@ -1,4 +1,13 @@
 GIT
+  remote: git://github.com/platanus/lita-crypto.git
+  revision: f3ab7f7db674e69cd4c15ab25dad827d3ad6ca1c
+  specs:
+    lita-crypto (0.2.0)
+      httparty
+      lita (>= 4.7)
+      money
+
+GIT
   remote: git://github.com/platanus/lita-dependencies.git
   revision: cadf87b31a0bd046bf71eac11f8d57566e8d9978
   specs:
@@ -182,6 +191,8 @@ GEM
     mime-types-data (3.2016.0521)
     mini_portile2 (2.1.0)
     minitest (5.9.1)
+    money (6.9.0)
+      i18n (>= 0.6.4, < 0.9)
     multi_json (1.12.1)
     multi_xml (0.6.0)
     multipart-post (2.0.0)
@@ -252,6 +263,7 @@ PLATFORMS
 DEPENDENCIES
   dotenv
   lita
+  lita-crypto!
   lita-dependencies!
   lita-google-birthdates!
   lita-keepalive
@@ -267,4 +279,4 @@ DEPENDENCIES
   pry
 
 BUNDLED WITH
-   1.14.6
+   1.15.1
