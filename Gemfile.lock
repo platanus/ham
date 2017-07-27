@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/platanus/lita-crypto.git
-  revision: f3ab7f7db674e69cd4c15ab25dad827d3ad6ca1c
+  revision: 1678147b0f2ffb345766b12451cdc3351005c198
   specs:
     lita-crypto (0.2.0)
       httparty
@@ -140,11 +140,11 @@ GEM
     http_router (0.11.2)
       rack (>= 1.0.0)
       url_mount (~> 0.2.1)
-    httparty (0.15.5)
+    httparty (0.15.6)
       multi_xml (>= 0.5.2)
     httpclient (2.8.3)
     hurley (0.2)
-    i18n (0.8.4)
+    i18n (0.8.6)
     ice_nine (0.11.2)
     insensitive_hash (0.3.3)
     json (1.8.3)
