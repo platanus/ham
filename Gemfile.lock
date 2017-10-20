@@ -73,7 +73,8 @@ GIT
 
 GIT
   remote: git://github.com/platanus/lita_time_tracker.git
-  revision: 9da53c89d8462470817b7a335b629f6f8e081c77
+  revision: 9f9abf88645e06436e5699606b107eb27b12771c
+  branch: fix-harvest-client
   specs:
     lita_time_tracker (0.1.0)
       awesome_print
@@ -202,7 +203,7 @@ GEM
     oauth (0.4.7)
     octokit (4.4.1)
       sawyer (~> 0.7.0, >= 0.5.3)
-    oj (3.2.0)
+    oj (3.3.8)
     os (0.9.6)
     power-types (0.1.2)
     pry (0.10.4)

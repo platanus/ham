@@ -11,7 +11,7 @@ gem "lita-slack"
 gem 'lita-trainer-bot', github: 'platanus/lita-trainer-bot'
 gem 'lita-trello-democracy', github: "platanus/lita-trello-democracy"
 gem 'lita-watering-reminder', github: "platanus/lita-watering-reminder"
-gem 'lita_time_tracker', github: "platanus/lita_time_tracker"
+gem 'lita_time_tracker', github: "platanus/lita_time_tracker", branch: "fix-harvest-client"
 gem "lita-whois"
 gem "lita-crypto", github: "platanus/lita-crypto"
 
