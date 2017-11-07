@@ -56,6 +56,14 @@ GIT
       rufus-scheduler
 
 GIT
+  remote: git://github.com/platanus/lita-watering-reminder.git
+  revision: d7d73a4cd8d18ce7100cc89ae9592f8a1f4fc2e7
+  specs:
+    lita-watering-reminder (0.2.0)
+      google_drive
+      lita (>= 4.7)
+
+GIT
   remote: git://github.com/platanus/lita_time_tracker.git
   revision: 2ffce616b8b76b66155390bb0eb986b5d4f5fdd9
   specs:
@@ -256,6 +264,7 @@ DEPENDENCIES
   lita-pull-requests!
   lita-slack
   lita-trello-democracy!
+  lita-watering-reminder!
   lita-whois
   lita_time_tracker!
   pry
