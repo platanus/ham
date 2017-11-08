@@ -30,7 +30,7 @@ GIT
 
 GIT
   remote: git://github.com/platanus/lita-lunch-reminder.git
-  revision: 3c6e44ca9e2fdb469ed87f3e3b86bd7dc10adea1
+  revision: 96fd77e3bff3d7b01d12ee75521375d2d8fe5263
   specs:
     lita-lunch-reminder (0.2.0)
       google_drive
@@ -135,7 +135,7 @@ GEM
     i18n (0.8.6)
     ice_nine (0.11.2)
     insensitive_hash (0.3.3)
-    json (1.8.3)
+    json (1.8.6)
     jwt (2.1.0)
     launchy (2.4.3)
       addressable (~> 2.3)
@@ -175,7 +175,7 @@ GEM
       mime-types-data (~> 3.2015)
     mime-types-data (3.2016.0521)
     mini_portile2 (2.3.0)
-    minitest (5.9.1)
+    minitest (5.10.3)
     money (6.9.0)
       i18n (>= 0.6.4, < 0.9)
     multi_json (1.12.2)
@@ -226,12 +226,12 @@ GEM
       multi_json (~> 1.10)
     slop (3.6.0)
     thor (0.20.0)
-    thread_safe (0.3.5)
+    thread_safe (0.3.6)
     togglv8 (1.2.1)
       faraday
       logger
       oj
-    tzinfo (1.2.2)
+    tzinfo (1.2.4)
       thread_safe (~> 0.1)
     url_mount (0.2.1)
       rack
