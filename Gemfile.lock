@@ -30,11 +30,12 @@ GIT
 
 GIT
   remote: git://github.com/platanus/lita-lunch-reminder.git
-  revision: 46c744f09df17e8a7e3c553f83ffa348739ca50e
+  revision: c1d02b00e3513a61b7afe7895b69ffaa7a280e28
   specs:
     lita-lunch-reminder (0.2.0)
       google_drive
       lita (>= 4.7)
+      weighted_randomizer
 
 GIT
   remote: git://github.com/platanus/lita-pull-requests.git
@@ -238,6 +239,7 @@ GEM
     websocket-driver (0.6.4)
       websocket-extensions (>= 0.1.0)
     websocket-extensions (0.1.2)
+    weighted_randomizer (0.1.2)
     whois (3.6.5)
       activesupport (>= 3)
 
