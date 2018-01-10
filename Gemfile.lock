@@ -29,6 +29,17 @@ GIT
       rufus-scheduler (= 2.0.24)
 
 GIT
+  remote: git://github.com/platanus/lita-lightning-bot.git
+  revision: b338c247ff4fba1bef9768696b685340d2172d77
+  specs:
+    lita-lightning (0.1.0)
+      faraday (~> 0.9)
+      faraday-conductivity (~> 0.3)
+      faraday_middleware (~> 0.9)
+      httparty
+      lita (>= 4.7)
+
+GIT
   remote: git://github.com/platanus/lita-lunch-reminder.git
   revision: 2feb49c44d957f3743519defd52fe0ce43697b9d
   specs:
@@ -100,6 +111,10 @@ GEM
     eventmachine (1.2.0.1)
     faraday (0.9.2)
       multipart-post (>= 1.2, < 3)
+    faraday-conductivity (0.3.1)
+      faraday (~> 0.8)
+    faraday_middleware (0.12.2)
+      faraday (>= 0.7.4, < 1.0)
     faye-websocket (0.10.4)
       eventmachine (>= 0.12.0)
       websocket-driver (>= 0.5.1)
@@ -261,6 +276,7 @@ DEPENDENCIES
   lita-dependencies!
   lita-google-birthdates!
   lita-keepalive
+  lita-lightning!
   lita-lunch-reminder!
   lita-poll
   lita-pull-requests!
