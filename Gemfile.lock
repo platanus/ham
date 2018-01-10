@@ -30,7 +30,7 @@ GIT
 
 GIT
   remote: git://github.com/platanus/lita-lightning-bot.git
-  revision: b338c247ff4fba1bef9768696b685340d2172d77
+  revision: 29d6652320a5f5e9e88a0c119699e8d10923b51c
   specs:
     lita-lightning (0.1.0)
       faraday (~> 0.9)
