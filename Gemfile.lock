@@ -49,6 +49,14 @@ GIT
       weighted_randomizer
 
 GIT
+  remote: git://github.com/platanus/lita-office-automation.git
+  revision: 9ad2da0c99e0feae7a58304a0beaa329b2770a07
+  specs:
+    lita-office-automation (0.1.0)
+      httparty
+      lita (>= 4.7)
+
+GIT
   remote: git://github.com/platanus/lita-pull-requests.git
   revision: a2c5205f3719218c9597a6ce45988e468865ea41
   specs:
@@ -278,6 +286,7 @@ DEPENDENCIES
   lita-keepalive
   lita-lightning!
   lita-lunch-reminder!
+  lita-office-automation!
   lita-poll
   lita-pull-requests!
   lita-slack
