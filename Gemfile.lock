@@ -30,7 +30,7 @@ GIT
 
 GIT
   remote: git://github.com/platanus/lita-lightning-bot.git
-  revision: 9600011e918563e546545ca50edd0a6d7c254b5e
+  revision: b41cbd2db99bd9772bd00515bb9e8e050bfef6dc
   specs:
     lita-lightning (0.1.0)
       faraday (~> 0.9)
@@ -41,12 +41,11 @@ GIT
 
 GIT
   remote: git://github.com/platanus/lita-lunch-reminder.git
-  revision: c623e7023591729c7b2073cf3fd3df6100dc7e83
+  revision: b8a4df76b4ea3c15d9f7414b81a20b82859aa98e
   specs:
     lita-lunch-reminder (0.2.0)
       google_drive
       lita (>= 4.7)
-      weighted_randomizer
 
 GIT
   remote: git://github.com/platanus/lita-office-automation.git
@@ -213,7 +212,7 @@ GEM
     multi_xml (0.6.0)
     multipart-post (2.0.0)
     netaddr (1.5.1)
-    nokogiri (1.8.1)
+    nokogiri (1.8.2)
       mini_portile2 (~> 2.3.0)
     oauth (0.4.7)
     octokit (4.4.1)
@@ -225,7 +224,7 @@ GEM
       coderay (~> 1.1.0)
       method_source (~> 0.8.1)
       slop (~> 3.4)
-    puma (3.11.0)
+    puma (3.11.2)
     rack (1.6.8)
     rb-readline (0.5.5)
     redis (4.0.1)
@@ -270,7 +269,6 @@ GEM
     websocket-driver (0.6.4)
       websocket-extensions (>= 0.1.0)
     websocket-extensions (0.1.2)
-    weighted_randomizer (0.1.2)
     whois (3.6.5)
       activesupport (>= 3)
 
