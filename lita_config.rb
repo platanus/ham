@@ -39,16 +39,6 @@ Lita.configure do |config|
   config.redis[:url] = ENV['BOXEN_REDIS_URL']
   config.handlers.keepalive.url = "http://localhost:#{config.http.port}"
 
-  config.handlers.google_birthdates.calendar_credentials
-        .client_id = ENV.fetch('GOOGLE_CLIENT_ID')
-  config.handlers.google_birthdates.calendar_credentials
-        .client_secret = ENV.fetch('GOOGLE_CLIENT_SECRET')
-  config.handlers.google_birthdates.calendar_credentials
-        .calendar_id = ENV.fetch('GOOGLE_CALENDAR_ID')
-  config.handlers.google_birthdates.calendar_credentials
-        .refresh_token = ENV.fetch('GOOGLE_CALENDAR_REFRESH_TOKEN')
-  config.handlers.google_birthdates.room = ENV.fetch('SLACK_ROOM')
-
   config.handlers.pull_requests.access_token = ENV.fetch('GITHUB_TOKEN')
   config.handlers.pull_requests.room = ENV.fetch('PULL_REQUESTS_ROOM')
 

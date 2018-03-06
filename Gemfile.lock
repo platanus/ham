@@ -19,16 +19,6 @@ GIT
       power-types
 
 GIT
-  remote: git://github.com/platanus/lita-google-birthdates.git
-  revision: 5721c043ba1350e586b7a10763f51cd79ac0afc7
-  specs:
-    lita-google-birthdates (0.1.0)
-      activesupport (~> 4.2)
-      google_calendar
-      lita (>= 4.7)
-      rufus-scheduler (= 2.0.24)
-
-GIT
   remote: git://github.com/platanus/lita-lightning-bot.git
   revision: b41cbd2db99bd9772bd00515bb9e8e050bfef6dc
   specs:
@@ -75,14 +65,6 @@ GIT
       rufus-scheduler
 
 GIT
-  remote: git://github.com/platanus/lita-watering-reminder.git
-  revision: d7d73a4cd8d18ce7100cc89ae9592f8a1f4fc2e7
-  specs:
-    lita-watering-reminder (0.2.0)
-      google_drive
-      lita (>= 4.7)
-
-GIT
   remote: git://github.com/platanus/lita_time_tracker.git
   revision: 2ffce616b8b76b66155390bb0eb986b5d4f5fdd9
   specs:
@@ -96,9 +78,6 @@ GIT
 GEM
   remote: https://rubygems.org/
   specs:
-    TimezoneParser (0.2.0)
-      insensitive_hash
-      tzinfo
     activemodel (4.2.7.1)
       activesupport (= 4.2.7.1)
       builder (~> 3.1)
@@ -136,10 +115,6 @@ GEM
       mime-types (>= 1.6)
       representable (~> 3.0)
       retriable (>= 2.0, < 4.0)
-    google_calendar (0.6.1)
-      TimezoneParser (~> 0.2.0)
-      json (>= 1.8.3, < 2.1)
-      signet (~> 0.7)
     google_drive (2.1.2)
       google-api-client (>= 0.9.0, < 1.0.0)
       googleauth (>= 0.5.0, < 1.0.0)
@@ -161,7 +136,6 @@ GEM
     hurley (0.2)
     i18n (0.8.6)
     ice_nine (0.11.2)
-    insensitive_hash (0.3.3)
     json (1.8.6)
     jwt (1.5.6)
     lita (4.7.1)
@@ -280,7 +254,6 @@ DEPENDENCIES
   lita
   lita-crypto!
   lita-dependencies!
-  lita-google-birthdates!
   lita-keepalive
   lita-lightning!
   lita-lunch-reminder!
@@ -289,7 +262,6 @@ DEPENDENCIES
   lita-pull-requests!
   lita-slack
   lita-trello-democracy!
-  lita-watering-reminder!
   lita-whois
   lita_time_tracker!
   pry
