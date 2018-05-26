@@ -31,11 +31,12 @@ GIT
 
 GIT
   remote: git://github.com/platanus/lita-lunch-reminder.git
-  revision: f79c0cb52e7a08594683a6f46c0434e7d26b3cb6
+  revision: d37c903ea9f0bccd93f3616500bc56acbdbe9fca
   specs:
     lita-lunch-reminder (0.2.0)
       google_drive
       lita (>= 4.7)
+      rufus-scheduler
 
 GIT
   remote: git://github.com/platanus/lita-office-automation.git
