@@ -31,7 +31,7 @@ GIT
 
 GIT
   remote: git://github.com/platanus/lita-lunch-reminder.git
-  revision: d37c903ea9f0bccd93f3616500bc56acbdbe9fca
+  revision: 0f3a45e01847c9060411e27a9127d3ef18d7747c
   specs:
     lita-lunch-reminder (0.2.0)
       google_drive
@@ -236,7 +236,7 @@ GEM
       faraday
       logger
       oj
-    tzinfo (1.2.4)
+    tzinfo (1.2.5)
       thread_safe (~> 0.1)
     uber (0.1.0)
     url_mount (0.2.1)
