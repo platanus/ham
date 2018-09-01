@@ -31,7 +31,7 @@ GIT
 
 GIT
   remote: git://github.com/platanus/lita-lunch-reminder.git
-  revision: 0f3a45e01847c9060411e27a9127d3ef18d7747c
+  revision: acfa20139659680f8fa07f887b224611c1f65147
   specs:
     lita-lunch-reminder (0.2.0)
       google_drive
@@ -176,9 +176,9 @@ GEM
       multi_json (~> 1.10)
     memoist (0.16.0)
     method_source (0.8.2)
-    mime-types (3.1)
+    mime-types (3.2.2)
       mime-types-data (~> 3.2015)
-    mime-types-data (3.2016.0521)
+    mime-types-data (3.2018.0812)
     mini_portile2 (2.3.0)
     minitest (5.11.1)
     money (6.9.0)
@@ -187,7 +187,7 @@ GEM
     multi_xml (0.6.0)
     multipart-post (2.0.0)
     netaddr (1.5.1)
-    nokogiri (1.8.2)
+    nokogiri (1.8.4)
       mini_portile2 (~> 2.3.0)
     oauth (0.4.7)
     octokit (4.4.1)
@@ -199,10 +199,10 @@ GEM
       coderay (~> 1.1.0)
       method_source (~> 0.8.1)
       slop (~> 3.4)
-    puma (3.11.4)
+    puma (3.12.0)
     rack (1.6.10)
     rb-readline (0.5.5)
-    redis (4.0.1)
+    redis (4.0.2)
     redis-namespace (1.6.0)
       redis (>= 3.0.4)
     representable (3.0.4)
@@ -212,7 +212,7 @@ GEM
     require_all (1.4.0)
     rest-client (1.6.7)
       mime-types (>= 1.16)
-    retriable (3.1.1)
+    retriable (3.1.2)
     ruby-trello (1.1.1)
       activemodel (>= 3.2.0)
       addressable (~> 2.3)
@@ -224,7 +224,7 @@ GEM
     sawyer (0.7.0)
       addressable (>= 2.3.5, < 2.5)
       faraday (~> 0.8, < 0.10)
-    signet (0.8.1)
+    signet (0.9.1)
       addressable (~> 2.3)
       faraday (~> 0.9)
       jwt (>= 1.5, < 3.0)
