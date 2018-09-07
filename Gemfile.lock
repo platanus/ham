@@ -1,4 +1,11 @@
 GIT
+  remote: git://github.com/platanus/lita-auth-code.git
+  revision: e97b24aceebaed77d2b59360a2aea69043272409
+  specs:
+    lita-auth-code (0.1.0)
+      lita (>= 4.7)
+
+GIT
   remote: git://github.com/platanus/lita-crypto.git
   revision: 1678147b0f2ffb345766b12451cdc3351005c198
   specs:
@@ -253,6 +260,7 @@ PLATFORMS
 DEPENDENCIES
   dotenv
   lita
+  lita-auth-code!
   lita-crypto!
   lita-dependencies!
   lita-keepalive
