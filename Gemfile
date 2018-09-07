@@ -1,6 +1,7 @@
 source "https://rubygems.org"
 
 gem "lita"
+gem "lita-auth-code", github: "platanus/lita-auth-code"
 gem "lita-crypto", github: "platanus/lita-crypto"
 gem 'lita-dependencies', github: "platanus/lita-dependencies"
 gem 'lita-keepalive'
