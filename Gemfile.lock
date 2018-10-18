@@ -63,6 +63,14 @@ GIT
       rufus-scheduler (= 2.0.24)
 
 GIT
+  remote: git://github.com/platanus/lita-trainer-bot.git
+  revision: cd5e1890c3d2d1bc2bf1fb04c0eee754c8d0451b
+  specs:
+    lita-trainer-bot (0.1.0)
+      google_drive
+      lita (>= 4.7)
+
+GIT
   remote: git://github.com/platanus/lita-trello-democracy.git
   revision: b3e8acc28b9dede793a3533a92f8596d1db77e55
   specs:
@@ -270,6 +278,7 @@ DEPENDENCIES
   lita-poll
   lita-pull-requests!
   lita-slack
+  lita-trainer-bot!
   lita-trello-democracy!
   lita-whois
   lita_time_tracker!
