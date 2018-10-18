@@ -64,7 +64,7 @@ GIT
 
 GIT
   remote: git://github.com/platanus/lita-trainer-bot.git
-  revision: cd5e1890c3d2d1bc2bf1fb04c0eee754c8d0451b
+  revision: 946372ca7293a5f87c4917a207cd97f172b347ac
   specs:
     lita-trainer-bot (0.1.0)
       google_drive
@@ -202,7 +202,7 @@ GEM
     multi_xml (0.6.0)
     multipart-post (2.0.0)
     netaddr (1.5.1)
-    nokogiri (1.8.4)
+    nokogiri (1.8.5)
       mini_portile2 (~> 2.3.0)
     oauth (0.4.7)
     octokit (4.4.1)
@@ -239,7 +239,7 @@ GEM
     sawyer (0.7.0)
       addressable (>= 2.3.5, < 2.5)
       faraday (~> 0.8, < 0.10)
-    signet (0.9.1)
+    signet (0.11.0)
       addressable (~> 2.3)
       faraday (~> 0.9)
       jwt (>= 1.5, < 3.0)
