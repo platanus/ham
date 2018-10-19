@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/platanus/lita-auth-code.git
-  revision: 4da6b371b293e1520ba6ac60306414b72041baaf
+  revision: e1733088a21f0e66d04989bb1e963ac155abbafa
   specs:
     lita-auth-code (0.1.0)
       lita (>= 4.7)
