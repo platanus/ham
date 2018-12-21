@@ -1,4 +1,5 @@
 require './setup'
+require 'lita-lunch-reminder'
 
 Lita.configure do |config|
   # The name your robot will use.

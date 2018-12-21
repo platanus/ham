@@ -6,7 +6,7 @@ gem "lita-crypto", github: "platanus/lita-crypto"
 gem 'lita-dependencies', github: "platanus/lita-dependencies"
 gem 'lita-keepalive'
 gem "lita-lightning", github: "platanus/lita-lightning-bot"
-gem 'lita-lunch-reminder', github: "platanus/lita-lunch-reminder"
+gem 'lita-lunch-reminder', github: "platanus/lita-lunch-reminder", require: false
 gem "lita-office-automation", github: "platanus/lita-office-automation"
 gem "lita-poll"
 gem 'lita-pull-requests', github: "platanus/lita-pull-requests"
