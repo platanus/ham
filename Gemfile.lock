@@ -82,7 +82,7 @@ GIT
 
 GIT
   remote: git://github.com/platanus/lita_time_tracker.git
-  revision: 2ffce616b8b76b66155390bb0eb986b5d4f5fdd9
+  revision: 4a4b5370bc3c9733da8aa2bcfa738f6afff824c4
   specs:
     lita_time_tracker (0.1.0)
       awesome_print
