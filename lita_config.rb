@@ -37,14 +37,10 @@ Lita.configure do |config|
   # config.adapter.password = "secret"
 
   ## Example: Set options for the Redis connection.
-  config.redis[:url] = ENV['BOXEN_REDIS_URL']
+  config.redis[:url] = ENV['REDIS_URL'] || "redis://localhost:6379"
 
   config.handlers.pull_requests.access_token = ENV.fetch('GITHUB_TOKEN')
   config.handlers.pull_requests.room = ENV.fetch('PULL_REQUESTS_ROOM')
-
-  if ENV['RACK_ENV'] == 'production'
-    config.redis[:url] = ENV['REDIS_URL']
-  end
 
   ## Example: Set configuration for any loaded handlers. See the handler's
   ## documentation for options.
