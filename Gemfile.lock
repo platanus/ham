@@ -27,7 +27,7 @@ GIT
 
 GIT
   remote: git://github.com/platanus/lita-lightning-bot.git
-  revision: b41cbd2db99bd9772bd00515bb9e8e050bfef6dc
+  revision: f59826147615e33b5a753b3c35529c182bb67d3f
   specs:
     lita-lightning (0.1.0)
       faraday (~> 0.9)
@@ -47,7 +47,7 @@ GIT
 
 GIT
   remote: git://github.com/platanus/lita-office-automation.git
-  revision: 7eec6f59410d2a0f59d0577c04551b5508ba321f
+  revision: 4f9f4768fe96e9a127bf2e9122755e4ce7923979
   specs:
     lita-office-automation (0.1.0)
       httparty
