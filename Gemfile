@@ -15,6 +15,7 @@ gem 'lita-trello-democracy', github: "platanus/lita-trello-democracy"
 gem 'lita_time_tracker', github: "platanus/lita_time_tracker"
 gem "lita-whois"
 gem "lita-trainer-bot", github: "platanus/lita-trainer-bot"
+gem 'slack-ruby-client'
 
 group :development do
   gem "dotenv"
