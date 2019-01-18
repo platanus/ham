@@ -56,3 +56,7 @@ Lita.configure do |config|
   ## documentation for options.
   # config.handlers.some_handler.some_config_key = "value"
 end
+
+Slack.configure do |config|
+  config.token = ENV['SLACK_TOKEN']
+end
