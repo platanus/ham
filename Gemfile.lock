@@ -38,7 +38,7 @@ GIT
 
 GIT
   remote: git://github.com/platanus/lita-lunch-reminder.git
-  revision: 92ae6eb32ccaeef96a5eabeb93ae6d1c0c198a2e
+  revision: 3f3e76fa3d1e0352fdbd056b50a37ec7e589d47e
   specs:
     lita-lunch-reminder (0.2.0)
       google_drive
@@ -254,4 +254,4 @@ DEPENDENCIES
   slack-ruby-client
 
 BUNDLED WITH
-   2.0.1
+   1.17.3
