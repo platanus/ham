@@ -38,18 +38,12 @@ Lita.configure do |config|
 
   ## Example: Set options for the Redis connection.
   config.redis[:url] = ENV['BOXEN_REDIS_URL']
-  config.handlers.keepalive.url = "http://localhost:#{config.http.port}"
 
   config.handlers.pull_requests.access_token = ENV.fetch('GITHUB_TOKEN')
   config.handlers.pull_requests.room = ENV.fetch('PULL_REQUESTS_ROOM')
 
-  config.handlers.vote_handler.trello_config.developer_public_key = ENV.fetch('TRELLO_API_KEY')
-  config.handlers.vote_handler.trello_config.member_token = ENV.fetch('TRELLO_MEMBER_TOKEN')
-
   if ENV['RACK_ENV'] == 'production'
     config.redis[:url] = ENV['REDIS_URL']
-
-    config.handlers.keepalive.url = ENV.fetch('KEEPALIVE_URL')
   end
 
   ## Example: Set configuration for any loaded handlers. See the handler's
