@@ -38,7 +38,7 @@ GIT
 
 GIT
   remote: git://github.com/platanus/lita-lunch-reminder.git
-  revision: 3f3e76fa3d1e0352fdbd056b50a37ec7e589d47e
+  revision: 9108a48e9af3d2e48a2e2c8779d702efd9aa31ae
   specs:
     lita-lunch-reminder (0.2.0)
       google_drive
