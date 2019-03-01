@@ -38,7 +38,7 @@ GIT
 
 GIT
   remote: git://github.com/platanus/lita-lunch-reminder.git
-  revision: 9108a48e9af3d2e48a2e2c8779d702efd9aa31ae
+  revision: 8ca2f1d173094956f8ba72b6ab4f9c4dc15217f6
   specs:
     lita-lunch-reminder (0.2.0)
       google_drive
@@ -61,6 +61,13 @@ GIT
       lita (>= 4.7)
       octokit (~> 4.0)
       rufus-scheduler (= 2.0.24)
+
+GIT
+  remote: git://github.com/platanus/lita-slack-actions.git
+  revision: 8f5ace2d3e29c25105731e83913fccfed6c30088
+  specs:
+    lita-slack-actions (0.1.0)
+      lita (>= 4.7)
 
 GIT
   remote: git://github.com/platanus/lita-trainer-bot.git
@@ -248,6 +255,7 @@ DEPENDENCIES
   lita-office-automation!
   lita-pull-requests!
   lita-slack
+  lita-slack-actions!
   lita-trainer-bot!
   lita_time_tracker!
   pry
