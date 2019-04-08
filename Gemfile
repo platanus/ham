@@ -6,6 +6,7 @@ gem "lita-slack"
 gem "lita-auth-code", github: "platanus/lita-auth-code"
 gem "lita-crypto", github: "platanus/lita-crypto"
 gem "lita-dependencies", github: "platanus/lita-dependencies"
+gem "lita-harvest-tracker", github: "platanus/lita-harvest-tracker"
 gem "lita-lightning", github: "platanus/lita-lightning-bot"
 gem "lita-lunch-reminder", github: "platanus/lita-lunch-reminder", require: false
 gem "lita-office-automation", github: "platanus/lita-office-automation"

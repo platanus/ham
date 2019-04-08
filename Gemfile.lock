@@ -26,6 +26,13 @@ GIT
       power-types
 
 GIT
+  remote: git://github.com/platanus/lita-harvest-tracker.git
+  revision: 7beed6e371f0a5bc32a28befdb320efcc7fc8220
+  specs:
+    lita-harvest-tracker (0.1.0)
+      lita (>= 4.7)
+
+GIT
   remote: git://github.com/platanus/lita-lightning-bot.git
   revision: f59826147615e33b5a753b3c35529c182bb67d3f
   specs:
@@ -250,6 +257,7 @@ DEPENDENCIES
   lita-auth-code!
   lita-crypto!
   lita-dependencies!
+  lita-harvest-tracker!
   lita-lightning!
   lita-lunch-reminder!
   lita-office-automation!
