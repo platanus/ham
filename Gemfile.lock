@@ -27,7 +27,7 @@ GIT
 
 GIT
   remote: git://github.com/platanus/lita-harvest-tracker.git
-  revision: 7beed6e371f0a5bc32a28befdb320efcc7fc8220
+  revision: 24b2d6be5eda07398cb5b11795798dddfdff22c9
   specs:
     lita-harvest-tracker (0.1.0)
       lita (>= 4.7)
