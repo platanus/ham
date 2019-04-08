@@ -71,7 +71,7 @@ GIT
 
 GIT
   remote: git://github.com/platanus/lita-slack-actions.git
-  revision: 8f5ace2d3e29c25105731e83913fccfed6c30088
+  revision: ce88ad84c85d9b5f9a48ffa9452983e212588de1
   specs:
     lita-slack-actions (0.1.0)
       lita (>= 4.7)
