@@ -14,7 +14,7 @@ gem "lita-pull-requests", github: "platanus/lita-pull-requests"
 gem "lita-slack-actions", github: "platanus/lita-slack-actions"
 gem "lita-trainer-bot", github: "platanus/lita-trainer-bot"
 gem "lita_time_tracker", github: "platanus/lita_time_tracker"
-gem 'slack-ruby-client', ">= 0.14.1"
+gem 'slack-ruby-client', "~> 0.14"
 
 group :development do
   gem "dotenv"

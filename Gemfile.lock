@@ -267,7 +267,7 @@ DEPENDENCIES
   lita-trainer-bot!
   lita_time_tracker!
   pry
-  slack-ruby-client (>= 0.14.1)
+  slack-ruby-client (~> 0.14)
 
 BUNDLED WITH
    1.17.3
