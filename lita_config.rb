@@ -1,5 +1,6 @@
 require './setup'
 require 'lita-lunch-reminder'
+require 'lita-harvest-tracker'
 
 Lita.configure do |config|
   # The name your robot will use.

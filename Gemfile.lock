@@ -26,6 +26,13 @@ GIT
       power-types
 
 GIT
+  remote: git://github.com/platanus/lita-harvest-tracker.git
+  revision: f76ccdbe1b8ec621e1eb2bdc55ae7e204cfb8189
+  specs:
+    lita-harvest-tracker (0.1.0)
+      lita (>= 4.7)
+
+GIT
   remote: git://github.com/platanus/lita-lightning-bot.git
   revision: f59826147615e33b5a753b3c35529c182bb67d3f
   specs:
@@ -64,7 +71,7 @@ GIT
 
 GIT
   remote: git://github.com/platanus/lita-slack-actions.git
-  revision: 8f5ace2d3e29c25105731e83913fccfed6c30088
+  revision: ce88ad84c85d9b5f9a48ffa9452983e212588de1
   specs:
     lita-slack-actions (0.1.0)
       lita (>= 4.7)
@@ -79,7 +86,7 @@ GIT
 
 GIT
   remote: git://github.com/platanus/lita_time_tracker.git
-  revision: 4a4b5370bc3c9733da8aa2bcfa738f6afff824c4
+  revision: 286e1027a26496194c179d8bc2f90f1d942f6fe3
   specs:
     lita_time_tracker (0.1.0)
       awesome_print
@@ -91,7 +98,7 @@ GIT
 GEM
   remote: https://rubygems.org/
   specs:
-    activesupport (5.2.2)
+    activesupport (5.2.3)
       concurrent-ruby (~> 1.0, >= 1.0.2)
       i18n (>= 0.7, < 2)
       minitest (~> 5.1)
@@ -219,7 +226,7 @@ GEM
       faraday (~> 0.9)
       jwt (>= 1.5, < 3.0)
       multi_json (~> 1.10)
-    slack-ruby-client (0.13.1)
+    slack-ruby-client (0.14.1)
       activesupport
       faraday (>= 0.9)
       faraday_middleware
@@ -250,6 +257,7 @@ DEPENDENCIES
   lita-auth-code!
   lita-crypto!
   lita-dependencies!
+  lita-harvest-tracker!
   lita-lightning!
   lita-lunch-reminder!
   lita-office-automation!
@@ -259,7 +267,7 @@ DEPENDENCIES
   lita-trainer-bot!
   lita_time_tracker!
   pry
-  slack-ruby-client
+  slack-ruby-client (~> 0.14)
 
 BUNDLED WITH
    1.17.3
