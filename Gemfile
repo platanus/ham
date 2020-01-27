@@ -8,7 +8,7 @@ gem "lita-crypto", github: "platanus/lita-crypto"
 gem "lita-dependencies", github: "platanus/lita-dependencies"
 gem "lita-harvest-tracker", github: "platanus/lita-harvest-tracker", require: false
 gem "lita-lightning", github: "platanus/lita-lightning-bot"
-gem "lita-lunch-reminder", github: "platanus/lita-lunch-reminder", require: false
+gem "lita-lunch-reminder", github: "platanus/lita-lunch-reminder", require: false, branch:'fx/dependencies'
 gem "lita-office-automation", github: "platanus/lita-office-automation"
 gem "lita-pull-requests", github: "platanus/lita-pull-requests"
 gem "lita-slack-actions", github: "platanus/lita-slack-actions"

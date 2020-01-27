@@ -45,12 +45,14 @@ GIT
 
 GIT
   remote: git://github.com/platanus/lita-lunch-reminder.git
-  revision: a71efdbbff9c727b81264ce41ee60c2074bbf791
+  revision: 33b5bf1592af3bc17ecd4ace53a56957a6a22296
+  branch: fx/dependencies
   specs:
     lita-lunch-reminder (0.2.0)
       google_drive
       lita (>= 4.7)
       rufus-scheduler
+      slack-ruby-client
 
 GIT
   remote: git://github.com/platanus/lita-office-automation.git
