@@ -120,7 +120,7 @@ GEM
       faraday (~> 0.8)
     faraday_middleware (0.14.0)
       faraday (>= 0.7.4, < 1.0)
-    faye-websocket (0.10.9)
+    faye-websocket (0.11.0)
       eventmachine (>= 0.12.0)
       websocket-driver (>= 0.5.1)
     gems (1.2.0)
@@ -248,9 +248,9 @@ GEM
     uber (0.1.0)
     url_mount (0.2.1)
       rack
-    websocket-driver (0.7.1)
+    websocket-driver (0.7.3)
       websocket-extensions (>= 0.1.0)
-    websocket-extensions (0.1.4)
+    websocket-extensions (0.1.5)
     zeitwerk (2.2.2)
 
 PLATFORMS
