@@ -243,7 +243,7 @@ GEM
       faraday
       logger
       oj
-    tzinfo (1.2.6)
+    tzinfo (1.2.10)
       thread_safe (~> 0.1)
     uber (0.1.0)
     url_mount (0.2.1)
